@@ -9,10 +9,13 @@
         <title>{{$title}}</title>
 
         <!-- Fonts -->
-        <link rel="stylesheet" href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap">
+        <link rel="stylesheet" href="https://fonts.bunny.net/css2?family=Poppins:wght@400;600;700&display=swap">
 
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
+
+        <!-- Logo -->
+        <link rel="icon" href="{{ asset('../logo.png') }}">
     </head>
 
     <body class="font-sans antialiased">
